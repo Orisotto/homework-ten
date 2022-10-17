@@ -1,0 +1,104 @@
+// ==============Site colors & fonts.===============
+// #ffffff
+// #000000
+// #79ADDC
+// gill-sans
+// proxima-nova-thin
+// proxima-nova-condensed
+// 
+// =====Copy & paste to the top each sass file.=====
+
+.about-description {
+  width: 75%;
+  margin: 0 auto;
+
+  .title {
+    font-family: proxima-nova-thin;
+    font-size: 60px;
+    margin-top: 90px;
+
+    span {
+      border-bottom: solid 3px black;
+    }
+  }
+
+  .about-text {
+    min-height: 96px;
+    margin-top: 20px;
+    font-family: gill-sans;
+    font-size: 17px;
+  }
+
+  .quotes {
+    font-family: proxima-nova-thin;
+    font-size: 40px;
+    margin-top: 95px;
+
+    span {
+      border-bottom: solid 3px black;
+    }
+  }
+}
+
+.client {
+  width: 75%;
+  margin: 0 auto;
+
+  .quotes {
+    font-family: proxima-nova-thin;
+    font-size: 40px;
+    margin-top: 95px;
+
+    span {
+      border-bottom: 3px solid black;
+    }
+  }
+
+  .client-container {
+    width: 70%;
+    min-height: 150px;
+    display: flex;
+    margin-top: 36px;
+
+    .client-image-one {
+      img {
+        width: 250px;
+        min-height: 150px;
+        max-height: auto;
+      }
+    }
+
+    .client-image-two {
+      img {
+        width: 250px;
+        min-height: 150px;
+        max-height: auto;
+      }
+    }
+
+    .client-quote {
+      min-width: 60%;
+      min-height: 150px;
+
+      .client-review {
+        max-width: 85%;
+        min-height: 120px;
+        padding-left: 20px;
+        font-family: gill-sans;
+        font-style: italic;
+      }
+      .client-name {
+        width: 100%;
+        min-height: 30px;
+        text-align: end;
+        font-family: proxima-nova-condensed;
+        font-size: 20px;
+        color: #79addc;
+      }
+    }
+  }
+}
+
+#bottom-margin-about {
+    margin-bottom: 178px;
+}

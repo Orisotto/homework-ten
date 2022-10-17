@@ -1,0 +1,81 @@
+// ==============Site colors & fonts.===============
+// #ffffff
+// #000000
+// #79ADDC
+// gill-sans
+// proxima-nova-thin
+// proxima-nova-condensed
+// 
+// =====Copy & paste to the top each sass file.=====
+
+.contact-title {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 59px;
+    font-family: proxima-nova-condensed;
+    font-size: 60px;
+
+    span {
+        border-bottom: solid 3px black;
+    }
+}
+
+.contact-wrapper {
+    max-width: 979px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    .map {
+        width: 400px;
+
+        .map-img {
+            width: 100%;
+            height: 442px;
+            margin-bottom: 34px;
+            background-image: url(../images/map.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .address {
+            width: 100%;
+            height: 161px;
+            font-size: 18px;
+            font-family: gill-sans;
+        }
+    }
+
+    .contact-form {
+        max-width: 520px;
+        height: 560px;
+
+        .fields {
+            width: 100%;
+            max-width: 100%;
+            height: 60px;
+            margin-bottom: 21px;
+            padding-left: 20px;
+            background-color: #e2e2e2;
+            color: #808080;
+            border: none;
+            font-family: gill-sans;
+        }
+
+        #message {
+            height: 199px;
+        }
+
+        .send-button {
+            width: 167px;
+            height: 60px;
+            font-family: gill-sans;
+            background-color: #79ADDC;
+            color: #ffffff;
+            border: none;
+            margin: 0 auto;
+        }
+    }
+}

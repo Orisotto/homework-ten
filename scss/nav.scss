@@ -1,0 +1,52 @@
+// ==============Site colors & fonts.===============
+// #ffffff
+// #000000
+// #79ADDC
+// gill-sans
+// proxima-nova-thin
+// proxima-nova-condensed
+// 
+// =====Copy & paste to the top each sass file.=====
+
+.navBar {
+    max-width: 75%;
+    min-height: 62px;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px white;
+    z-index: 1;
+
+    #logo{
+        img {
+            width: 96px;
+            height: 42px;
+        }
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            font-family: gill-sans;
+            font-size: 1.4em;                
+            text-decoration: none;          
+            padding: 0px 17px;              
+            color: white;
+            border-right: solid 2px #79ADDC;
+        }
+
+        .no-border {
+            border-right: none;
+            padding-right: 0px;
+        }
+    }
+}

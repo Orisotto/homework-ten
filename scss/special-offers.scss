@@ -1,0 +1,104 @@
+// ==============Site colors & fonts.===============
+// #ffffff
+// #000000
+// #79ADDC
+// gill-sans
+// proxima-nova-thin
+// proxima-nova-condensed
+// 
+// =====Copy & paste to the top each sass file.=====
+
+.deal-title {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 55px;
+    font-family: proxima-nova-condensed;
+    font-size: 30px;
+
+    span {
+        border-bottom: solid 3px black;
+    }
+}
+
+.deal-wrapper {
+    min-height: 794px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.deals-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    font-family: gill-sans;
+
+    .deal-img {
+        width: 199px;
+        height: 287px;
+    }
+
+    .deal-info {
+        width: 35%;
+        margin-left: 20px;
+
+        .deal-heading {
+            display: flex;
+            font-family: proxima-nova-condensed;
+            font-size: 2em;
+
+            .location {
+                span {
+                    border-bottom: solid 3px black;
+                }
+            }
+
+            .discount {
+                margin-top: 5px;
+                margin-bottom: 11px;
+                padding-left: 20px;
+                font-family: proxima-nova-condensed;
+                font-size: .6em;
+                color: #FF7D38;
+            }
+        }
+    }
+
+    .learn-more {
+        font-family: gill-sans;
+        font-size: 15px;
+        width: 133px;
+        height: 40px;
+        padding-top: 10px;
+        text-align: center;
+        margin-top: 52px;
+        border-radius: 20px;
+        background-color: #79addc;
+        color: white;
+      }
+
+    #bar {
+        background-image: url(../images/special-offer-01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #ban {
+        background-image: url(../images/special-offer-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+#bottom-margin-deals {
+    margin-bottom: 70px;
+}
+
+.special-offer-container {
+    width: 75%;
+    height: 100%;
+    background-color: aqua;
+}

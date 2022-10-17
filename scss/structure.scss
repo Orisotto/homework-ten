@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gill-sans;
+  src: url(fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: proxima-nova-thin;
+  src: url(fonts/Proxima-Nova-Thin.otf);
+}
+
+@font-face {
+  font-family: proxima-nova-condensed;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+// ==============Site colors & fonts.===============
+// #ffffff
+// #000000
+// #79ADDC
+// gill-sans
+// proxima-nova-thin
+// proxima-nova-condensed
+//
+// =====Copy & paste to the top each sass file.=====
+
+.site-container {
+  width: 100%;
+}
+
+.container {
+  //Default container. Pair with other classes.
+  width: 75%;
+  margin: 0 auto;
+}
+
+.blank-space {
+  width: 100%;
+  height: 100px;
+}
+
+.hero {
+  //Default hero. Pair with other classes.
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+}
+
+.wrapperTour {
+  max-width: 818px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.borderBlack {
+  border-color: black !important;
+}
+
+.linksBlack {
+  a {
+      color: black !important;
+  }
+}
+
+// ----------Responsive Home Section----------
+@media only screen and (max-width: 1263px) {
+  nav,
+  #nav-home {
+    flex-direction: column;
+    text-align: center;
+
+    .links {
+      justify-content: center;
+      align-items: center;
+    }
+
+    #no-border {
+      padding-right: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 682px) {
+  nav {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 864px) {
+  .booking-info {
+    width: 80%;
+    margin: 0 auto;
+    input {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .guests {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    .drop-down {
+      margin-bottom: 20px;
+    }
+  }
+
+  .check-container {
+    width: 50%;
+    margin: 0 auto;
+    label {
+      padding: 20px;
+    }
+  }
+
+  .booking-message {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .booking-submit {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+// ----------Responsive About Section----------
+@media only screen and (max-width: 1126px) {
+  .about-text {
+    height: fit-content;
+  }
+
+  .client-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .client-quote {
+    width: 100%;
+  }
+
+  .client-image-one {
+    img {
+      min-width: 100%;
+    }
+  }
+
+  .client-image-two {
+    img {
+      min-width: 100%;
+    }
+  }
+}
+
+// ----------Responsive Tour Section----------
+@media only screen and (max-width: 965px) {
+  .wrapper-tour {
+    width: 527px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper-tour {
+    width: 236px;
+  }
+}
+
+@media only screen and (max-width: 1117px) {
+  .image-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .tour-img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (max-height: 839px) {
+  .deal-wrapper {
+    height: 1000px;
+  }
+}
+
+// ----------Responsive Contact Section----------
+
+@media only screen and (max-width: 1000px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .map {
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+    }
+  }
+}

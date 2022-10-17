@@ -1,0 +1,232 @@
+// ==============Site colors & fonts.===============
+// #ffffff
+// #000000
+// #79ADDC
+// gill-sans
+// proxima-nova-thin
+// proxima-nova-condensed
+// 
+// =====Copy & paste to the top each sass file.=====
+
+.hero.home-page {
+    width: auto;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container.callout {
+        width: 484px;
+        height: 245px;
+        margin: 0 auto;
+
+        .header {
+            text-align: center;
+
+            h1 {
+                font-family: proxima-nova-condensed;
+                font-size: 60px;
+                color: #ffffff;
+            }
+
+            p {
+                font-family: gill-sans;
+                font-size: 20px;
+                font-style: italic;
+                color: #ffffff;
+            }
+
+            .read-more {
+                width: 121px;
+                height: 40px;
+                font-family: gill-sans;
+                font-size: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                margin-top: 50px;
+                color: #ffffff;
+                background-color: #79ADDC;
+            }
+        }
+    }    
+}
+
+.promos {
+    margin-top: -50px;
+}
+
+.booking {
+    margin: 0 auto;
+    min-height: 793px;
+
+    .booking-wrapper {
+        max-width: 818px;
+        margin: 0 auto;
+
+        .booking-callout {
+            font-family: proxima-nova-condensed;
+            font-size: 60px;
+            padding-top: 40px;
+        }
+
+        .input-form {
+
+            .booking-info {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                input {
+                    padding-left: 20px;
+                    font-family: gill-sans;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    border: solid 1px #79ADDC;
+                }
+
+                #name {
+                    min-width: 344px;
+                    height: 58px;
+                }
+
+                #email {
+                    width: 453px;
+                    height: 58px;
+                }
+
+                #country {
+                    min-width: 344px;
+                    height: 58px;
+                }
+
+                #hotel {
+                    width: 453px;
+                    height: 58px;
+                }
+            }
+
+            .checkIn-form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .check-container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    position: relative;
+                }
+
+                input {
+                    width: 698px;
+                    height: 58px;
+                    padding-left: 20px;
+                    font-family: gill-sans;
+                    font-size: 18px;
+                    border: solid 1px #79ADDC;
+                }
+
+                label {
+                    font-family: gill-sans;
+                    font-size: 18px;
+                }
+
+                img {
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    right: 20px;
+                }
+            }
+
+            .guests {
+                max-width: 818px;
+                min-height: 58px;
+                display: flex;
+                justify-content: space-between;
+
+                .drop-down {
+                    width: 220px;
+                    height: 58px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+
+                    input {
+                        width: 103px;
+                        height: 58px;
+                        padding-left: 20px;
+                        font-family: gill-sans;
+                        font-size: 18px;
+                        border: solid 1px #79ADDC;
+                    }
+
+                    label {
+                        font-family: gill-sans;
+                        font-size: 18px;
+                    }
+
+                    img {
+                        width: 19px;
+                        height: 19px;
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+            }
+
+            .booking-message {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                input {
+                    width: 818px;
+                    min-height: 192px;
+                    margin-top: 20px;
+                    padding-left: 20px;
+                    font-family: gill-sans;
+                    font-size: 18px;
+                    border:  solid 1px #79ADDC;
+                }
+            }
+
+            .booking-submit {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                button {
+                    width: 813px;
+                    height: 70px;
+                    border-radius: 30px;
+                    margin: 37px 0px 100px 0px;
+                    border: none;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-family: gill-sans;
+                    font-size: 15px;
+                    
+                }
+
+                #message::placeholder {
+                    text-align: left;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+
+}
